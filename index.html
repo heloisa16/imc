@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculo de IMC</title>
+    <link rel="stylesheet"href="estilos.css"><!---efine o relacionamento entre o arquivo em que o comando está escrito e o arquivo que é definido no caminho do href.-->
+</head>
+<body class="fundo">
+    <main>
+        <div class="quadrado">
+
+        <div class="titulo">Calculadora - IMC</div>
+        <div class="input">
+            <label>Altura:</label>
+          <input type="number" id="altura"><!--- é usado para criar controles interativos para formulários baseados na web para receber dados do usuário-->
+
+        </div>
+        <div class="input">
+            <label>Peso</label>
+            <input type="number" id="peso">
+        </div> 
+        <button id="calcular">Calcular</button>
+        <div class="result"id="resultado"></div>
+        </div>
+
+    </main><!---efine o conteúdo principal dentro do <body> em seu documento ou aplicação. -->
+    <script src="./imc.js"></script><!--- é usado para incluir ou referenciar um script executável. Conteúdo de metadados, Fluxo de conteúdo, Conteúdo fraseado.-->
+</body>
+</html>
